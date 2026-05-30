@@ -1,0 +1,60 @@
+body {
+             margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-image: url("https://cdn.pixabay.com/photo/2015/04/23/21/59/tree-736875_1280.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        h1 {
+            font-family: Georgia, serif;
+            color: white;
+            text-align: center;
+            margin: 55px 0 20px;
+            font-size: 50px;
+        }
+        p {
+            color: black;
+            font-size: 40px;
+            font-style: italic;
+            line-height: 1.5;
+            margin: 0 20px;
+            max-width: 700px;
+            text-align: center;
+        }
+        .chapters {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            font-size: 35px;
+            font-style: italic;
+            font-family: 'Times New Roman', serif;
+            
+        }
+        a:link {
+            color: white;
+        }
+        a:visited {
+            color: white;
+        }
+        a:hover {
+            color: red;
+        }
+        .stmenu {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 50px;
+        }
+        .ndmenu {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 50px;
+        }
+        h3 {
+            text-align: center;
+            font-family: 'Courier New', monospace;
+        }
