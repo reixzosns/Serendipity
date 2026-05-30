@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/1200x/c7/f7/e6/c7f7e62cafb7a22a562a97a5d2895754.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    color: black;
+    text-align: center;
+    margin: 50px 0 20px;
+    font-size: 50px;
+}
+
+p {
+    color: black;
+    font-size: 25px;
+    font-style: italic;
+    line-height: 1.5;
+    margin: 0 20px;
+    max-width: 700px;
+    text-align: center;
+}
+.button {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    target: _blank;
+}
